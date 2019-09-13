@@ -1,0 +1,13 @@
+# File produced by Open Asset Import Library (http://www.assimp.sf.net)
+# (assimp v3.1.187496374)
+
+newmtl Material_30
+Kd 0.584314 0.584314 0.584314
+Ka 0.2 0.2 0.2
+Ks 0 0 0
+Ke 0 0 0
+d 1
+Ns 9.83846
+illum 2
+map_Kd 10464_Asteroid_v1_diffuse.jpg
+
