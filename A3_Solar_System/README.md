@@ -14,3 +14,10 @@ Each element must have its own materials, with textures, and normal or bump maps
 Most textures can be found here: http://planetpixelemporium.com/
 The panning and rotation of the system has to be controlled using an orbit controller.
 Deadline: 19/09/12 23:59 hrs
+
+**Notas**
+
+- Faltó la traslación de las lunas.
+- Faltó utilizar el orbit controler para manejar la escena.
+
+**Calificación: 90**

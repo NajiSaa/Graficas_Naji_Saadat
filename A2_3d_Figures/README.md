@@ -22,3 +22,9 @@ Rubric:
 
 <img src="Images/Octahedron.jpg" width="300">
 <br/>Figure 3: 3D Octahedron.
+
+**Notas**
+
+- Hay que revisar la asignación de colores a las caras del escutoide. Cada cara tiene que tener el mismo color asignado a sus vértices. El gradiente que se ve es por que hay colores distintos en las caras.
+
+**Calificación: 90**
