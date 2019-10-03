@@ -1,0 +1,67 @@
+
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Simple Key Frame Animation</title>
+
+		<link rel="stylesheet" href="../libs/jquery-ui/jquery-ui.css" />
+		<link rel="stylesheet" href="../libs/colorpicker/css/colorpicker.css" />
+		<link rel="stylesheet" href="../css/main.css" />
+		<link rel="stylesheet" href="../css/keyframeanimation.css" />
+
+		<script src="../libs/jquery-3.4.1/jquery-3.4.1.min.js"></script>
+		<script src="../libs/jquery-ui/jquery-ui.js"></script>
+
+		<script src="../libs/three.js/three.js"></script>
+		<script src="../libs/three.js/controls/OrbitControls.js"></script>
+		<script src="../libs/colorpicker/js/colorpicker.js"></script>
+
+
+		<script src="../libs/tween.js/tween.js"></script>
+		<script src="../libs/keyframe.js/keyframe.js"></script>
+
+		<script src="threejsKeyframe.js"></script>
+
+		<script src="ui.js"></script>
+
+		<script src="../libs/three.js/loaders/OBJLoader.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready(
+					function() {
+
+						var canvas = document.getElementById("webglcanvas");
+
+						// create the scene
+						createScene(canvas);
+
+						// initialize the controls
+						initControls();
+						
+						// create the animations
+						playAnimations();
+						
+						// Run the run loop
+						run();
+					}
+			);
+
+		</script>
+
+		<style>
+			.window {
+				width: 100% !important;
+				height: 100% !important;
+				padding: 0;
+				margin: 0;
+			}
+		</style>
+	</head>
+
+	<body class="window">
+		<div class="window" id="container">
+			<canvas class="window" id="webglcanvas"></canvas>
+		</div>
+	</body>
+</html>
